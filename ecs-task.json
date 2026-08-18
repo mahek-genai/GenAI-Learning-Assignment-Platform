@@ -1,0 +1,49 @@
+{
+"containerDefinitions": [
+{
+"name": "CloudAge-Task",
+"image": "706769905020.dkr.ecr.us-east-1.amazonaws.com/japan-kaizan:latest",
+"cpu": 0,
+"links": [],
+"portMappings": [
+    {
+        "containerPort": 8501,
+        "hostPort": 8501,
+        "protocol": "tcp"
+    }
+],
+"essential": true,
+"entryPoint": [],
+"command": [],
+"environment": [],
+"environmentFiles": [],
+"mountPoints": [],
+"volumesFrom": [],
+"secrets": [],
+"dnsServers": [],
+"dnsSearchDomains": [],
+"extraHosts": [],
+"dockerSecurityOptions": [],
+"dockerLabels": {},
+"ulimits": [],
+"systemControls": [],
+"credentialSpecs": []
+}
+],
+"family": "CloudAge-Task_Def",
+"taskRoleArn": "arn:aws:iam::706769905020:role/Kaizan_MindShift",
+"executionRoleArn": "arn:aws:iam::706769905020:role/Kaizan_MindShift",
+"networkMode": "awsvpc",
+"volumes": [],
+"placementConstraints": [],
+"requiresCompatibilities": [
+"FARGATE"
+],
+"cpu": "512",
+"memory": "1024",
+"runtimePlatform": {
+"cpuArchitecture": "X86_64",
+"operatingSystemFamily": "LINUX"
+},
+"tags": []
+}
