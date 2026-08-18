@@ -220,8 +220,6 @@ if st.session_state.get("question_answers"):
 # =========================================================
 # Generate Image Button
 # =========================================================
-st.button("Generate New Image")
-
 if st.button("Generate New Image"):
 
     if not text:
